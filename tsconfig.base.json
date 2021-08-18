@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /** basic options */
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["ES2017"],
+    "allowJs": true,
+    "jsx": "react",
+    "checkJs": false,
+    "declaration": true,
+    "isolatedModules": true,
+    /** strict type-checking options */
+    "strict": false,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    /** module resolution options */
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    /** experimental options */
+    "skipDefaultLibCheck": true,
+  }
+}

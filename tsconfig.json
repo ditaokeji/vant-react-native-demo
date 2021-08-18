@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /** basic options */
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ES2017"],
+    "allowJs": true,
+    "jsx": "react",
+    "noEmit": true,
+    "isolatedModules": true,
+    /** strict type-checking options */
+    "strict": true,
+    /** module resolution options */
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@@/*": ["src/.umi/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false,
+  },
+  "exclude": [
+    "node_modules", "jest.config.js", "packages", "lib", "es", "dist",
+    "typings", "**/__test__", "test", "docs", "__tests__", "tests",
+  ]
+}
