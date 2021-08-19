@@ -1,5 +1,5 @@
 {
-  "name": "@ext-react/button",
+  "name": "@ts-ext-react/button",
   "version": "0.0.2",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
@@ -17,11 +17,15 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "prebuild": "rimraf lib",
     "build": "tsc",
     "dev": "yarn build -w",
     "prepublishOnly": "yarn build"
-  }
+  },
+  "gitHead": "57546715bd466db983ce4a8658bc26a9b68282eb"
 }
