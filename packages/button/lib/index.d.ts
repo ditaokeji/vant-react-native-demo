@@ -1,1 +1,2 @@
-export declare const Button: () => any;
+/// <reference types="react" />
+export declare const Button: () => JSX.Element;
