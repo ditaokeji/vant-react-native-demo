@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - run: yarn install
-      - run: yarn build:dumi
+      - run: npm install
+      - run: npm run build:dumi
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
